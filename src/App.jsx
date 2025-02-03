@@ -1,13 +1,13 @@
 import ColorButton from './ColorButton.jsx';
 
-const  App = () => {
+const  App = (colorName) => {
 
   return (
     <>
      <h1>Color Picker</h1>
-     <ColorButton />
-     <ColorButton />
-     <ColorButton />
+     <ColorButton colorName="yellow" />
+     <ColorButton colorName="green" />
+     <ColorButton colorName="black" />
     </>
   )
 }
