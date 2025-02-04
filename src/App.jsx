@@ -1,10 +1,13 @@
+// import components
 import { useState } from 'react';
 import ColorButton from './ColorButton.jsx';
 import { PickedColor } from './ColorButton.jsx';
 
+// app component
 const  App = (colorName) => {
   
-  const [selectedColor, setSelectedColor] = useState(""); 
+  const [selectedColor, setSelectedColor] = useState("");
+  // return html to page 
   return (
     <>
       <section id={selectedColor}>
